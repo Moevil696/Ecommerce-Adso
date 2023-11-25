@@ -1,5 +1,5 @@
 import { CardActionArea, Card, CardMedia, Grid, Typography } from '@mui/material'
-import { ShopLayout } from '../components/layouts/ShopLayaout'
+import { ShopLayout } from '../components/layouts/ShopLayout'
 
 import { initialData } from '../database/products'
 import { ProductList } from '../components/products';
