@@ -7,7 +7,7 @@ import { ProductList } from '../components/products';
 export default function Home() {
   return (
     <>
-      <ShopLayout title={'Ecommerce Sena - Home'} pageDescription={'Encuentra los mejores articulos para tu setup'}>
+      <ShopLayout title={'Ecommerce Sena - Home'} pageDescription={'Encuentra los mejores articulos'}>
         <Typography variant='h1' component='h1'>Tienda</Typography>
         <Typography variant='h2' sx={{ mb: 1 }}>Articulos</Typography>
 
