@@ -34,13 +34,6 @@ export const ProductCard: FC<Props> = ({ product }) => {
             </CardActionArea>
           </Link>
           </NextLink>
-          <CardActionArea>
-            <CardMedia
-              component='img'
-              image={productImage}
-              alt={product.title}
-            />
-          </CardActionArea>
         </Card>
         <Box sx={{met:1}} className='fadeIn'>
         <Typography fontWeight={700}>{product.title}</Typography>
