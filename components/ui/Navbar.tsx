@@ -9,8 +9,8 @@ export const Navbar = () => {
     <AppBar>
       <Toolbar>
         <NextLink href='/' passHref legacyBehavior>
-          <Link display='flex' alignItems='center' >
-            <Typography variant='h6'>Ecommerce |</Typography>
+          <Link display='flex' alignItems='center'>
+            <Typography variant='h6' component='h1'>DevWorld |</Typography>
             <Typography sx={{ ml: 0.5 }}>Shop</Typography>
           </Link>
         </NextLink>

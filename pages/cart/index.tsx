@@ -2,7 +2,7 @@ import React, { constructor } from 'react';
 import { ShopLayout } from '../../components/layouts';
 import { Box, Button, Card, CardContent, Divider, Grid, Typography } from "@mui/material";
 import { CartList } from '../../components/cart/CartList';
-import { OrderSumary } from '../../components/cart/OrderSumary';
+import { OrderSumary } from '../../components/cart/OrderSummary';
 
 
 const CartPage = () => {
