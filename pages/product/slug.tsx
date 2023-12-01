@@ -27,7 +27,7 @@ const ProductPage = () => {
                 <ItemCounter />
                 <SizeSelector sizes={product.sizes} />
             </Box>
-            <Button color="secondary" className='circular-bin'>
+            <Button color="secondary" className='circular-btn'>
                 Agregar al carrito
             </Button>
          { /* <Chip label='No hay disponibles' color='error' variant='outlined'/> */ }
